@@ -1,0 +1,10 @@
+{
+  "version": "1.0.0",
+  "organization": "SolveBeam",
+  "date": "January 2026",
+  "abstract": "Opinionated governance and AI-driven standards for modern WordPress plugin development. Enforces strict architecture, tooling, auditing, refactoring, and clean distribution practices while supporting the latest three major releases of PHP and WordPress.",
+  "references": [
+    "https://developer.wordpress.org/",
+    "https://developer.wordpress.org/plugins/"
+  ]
+}

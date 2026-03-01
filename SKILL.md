@@ -1,3 +1,12 @@
+---
+name: solvebeam-wordpress-plugin-governance
+description: A strict governance skill for auditing, upgrading, refactoring, and scaffolding WordPress plugins according to the official SolveBeam Plugin Development Guidelines.
+license: GPL-2.0-or-later
+metadata:
+  author: solvebeam
+  version: "1.0"
+---
+
 # 🧠 Skill: solvebeam-wordpress-plugin-governance
 
 ## Description

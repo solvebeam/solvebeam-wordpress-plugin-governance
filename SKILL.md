@@ -170,7 +170,7 @@ final class Plugin {
 Always use first-class callable syntax:
 
 ```php
-add_action( 'init', $this->init(...) );
+add_action( 'init', $this->init( ... ) );
 ```
 
 Never:

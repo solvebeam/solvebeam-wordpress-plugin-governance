@@ -40,7 +40,7 @@ It is intentionally opinionated and strict.
 
 ---
 
-## Composer.json Requirements
+## Composer.json
 
 Required structure:
 
@@ -56,6 +56,25 @@ Required structure:
   },
   "require": {
     "php": "^8.2"
+  },
+  "require-dev": {
+    "phpstan/phpstan": "*",
+    "rector/rector": "*",
+    "szepeviktor/phpstan-wordpress": "*",
+    "vimeo/psalm": "*",
+    "wp-cli/wp-cli": "*",
+    "wp-coding-standards/wpcs": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "SolveBeam\\PluginNamespace\\": "psr-4/"
+    }
+  },
+  "scripts": {
+    "build": ["@phpcs", "@phpstan"],
+    "lint": "@phpcs",
+    "analyse": "@phpstan",
+    "psalm": "psalm"
   }
 }
 ```
@@ -88,25 +107,13 @@ Rules:
 * No sub-namespaces
 * No deep structure
 * Flat architecture
-* PSR-4 → `src/`
-
----
-
-## 4️⃣ Autoload Rules
-
-```json
-"autoload": {
-  "psr-4": {
-    "SolveBeam\\SpecificPluginNamespace\\": "psr-4/"
-  }
-}
-```
-
-Rules:
-
-
----
 * PSR-4 → `psr-4/`
+
+---
+
+## 4️⃣ Autoload
+
+PSR-4 → `psr-4/` (see composer.json example above)
 
 # 🧱 Architecture Rules
 
@@ -244,20 +251,7 @@ Clean GitHub-generated zip archives.
 
 ---
 
-## 1️⃣1️⃣ Composer Dev Dependencies (Mandatory)
-
-Must include:
-
-* `wp-coding-standards/wpcs`
-* `phpstan/phpstan`
-* `szepeviktor/phpstan-wordpress`
-* `vimeo/psalm`
-* `rector/rector`
-* `wp-cli/wp-cli`
-
----
-
-## 1️⃣2️⃣ Required Tool Config Files
+## 1️⃣1️⃣ Required Tool Config Files
 
 Must generate:
 
@@ -267,31 +261,6 @@ Must generate:
 * `rector.php`
 
 All configured for WordPress plugin context.
-
----
-
-## 1️⃣3️⃣ Build Script
-
-Composer must include:
-
-```json
-"scripts": {
-  "build": [
-    "@phpcs",
-    "@phpstan"
-  ]
-}
-```
-
-Optional enhancement:
-
-Add:
-
-```json
-"lint": "@phpcs",
-"analyse": "@phpstan",
-"psalm": "psalm"
-```
 
 ---
 

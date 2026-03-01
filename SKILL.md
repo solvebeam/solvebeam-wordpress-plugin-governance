@@ -31,7 +31,6 @@ It is intentionally opinionated and strict.
 
 # 🔐 Global Enforcement Rules (Always Applied)
 
----
 
 ## 1️⃣ PHP Version
 
@@ -39,11 +38,25 @@ It is intentionally opinionated and strict.
 * Always support the latest major PHP release
 * Use modern language features
 
-Composer:
+---
+
+## Composer.json Requirements
+
+Required structure:
 
 ```json
-"require": {
-  "php": "^8.2"
+{
+  "config": {
+    "platform": {
+      "php": "8.2"
+    },
+    "platform-check": false,
+    "sort-packages": true,
+    "wp-slug": "plugin-slug"
+  },
+  "require": {
+    "php": "^8.2"
+  }
 }
 ```
 

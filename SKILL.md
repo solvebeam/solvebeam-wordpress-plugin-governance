@@ -206,7 +206,7 @@ Typical contents:
 node_modules
 vendor/bin
 tests
-phpstan.neon
+phpstan.neon.dist
 phpcs.xml.dist
 psalm.xml.dist
 rector.php

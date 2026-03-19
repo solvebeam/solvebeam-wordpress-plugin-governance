@@ -1,0 +1,19 @@
+{
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true,
+            "automattic/jetpack-autoloader": true
+        }
+    },
+    "require": {
+        "composer/installers": "^2.3",
+        "solvebeam/solvebeam-wordpress-plugin-boilerplate": "dev-main"
+    },
+    "extra": {
+        "installer-paths": {
+            "assets/solvebeam-boilerplate/": [
+                "solvebeam/solvebeam-wordpress-plugin-boilerplate"
+            ]
+        }
+    }
+}

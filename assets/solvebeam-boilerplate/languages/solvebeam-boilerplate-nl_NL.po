@@ -1,0 +1,72 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SolveBeam Default Customer Location for WooCommerce "
+"1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/solvebeam-default-"
+"customer-location-for-woocommerce\n"
+"POT-Creation-Date: 2026-01-16T09:57:25+00:00\n"
+"PO-Revision-Date: 2026-01-16 10:57+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.8\n"
+"X-Domain: solvebeam-boilerplate\n"
+
+#. Plugin Name of the plugin
+#: solvebeam-boilerplate.php
+msgid "SolveBeam Default Customer Location for WooCommerce"
+msgstr "SolveBeam Default Customer Location for WooCommerce"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: solvebeam-boilerplate.php
+msgid "https://www.solvebeam.com/"
+msgstr "https://www.solvebeam.com/"
+
+#. Description of the plugin
+#: solvebeam-boilerplate.php
+msgid ""
+"Override the default customer location used by WooCommerce for taxes, "
+"pricing, and checkout."
+msgstr ""
+"Overschrijf de standaard klantlocatie die WooCommerce gebruikt voor "
+"belastingen, prijzen en afrekenen."
+
+#. Author of the plugin
+#: solvebeam-boilerplate.php
+msgid "SolveBeam"
+msgstr "SolveBeam"
+
+#: psr-4/Plugin.php:79
+msgid "Settings"
+msgstr "Instellingen"
+
+#: psr-4/Plugin.php:127
+msgid "Override shop country/region for customer location"
+msgstr "Standaard winkel-land/regio overschrijven voor klantlocatie"
+
+#: psr-4/Plugin.php:128
+msgid ""
+"Use this setting when the 'Default customer location' above is set to 'Shop "
+"country/region', but you want to set a different default location for "
+"customers. For example, if your store is based in the Netherlands, but you "
+"primarily sell to customers in Germany, select 'Germany' here. New visitors "
+"will then immediately see prices and shipping options applicable to Germany."
+msgstr ""
+"Gebruik deze instelling wanneer “Standaard klantlocatie” hierboven is "
+"ingesteld op “Winkel-land/regio”, maar je een andere standaardlocatie voor "
+"klanten wilt instellen. Als je winkel bijvoorbeeld is gevestigd in "
+"Nederland, maar je voornamelijk aan klanten in Duitsland verkoopt, selecteer "
+"je hier “Duitsland”. Nieuwe bezoekers zien dan direct prijzen en "
+"verzendopties die van toepassing zijn op Duitsland."
+
+#: psr-4/Plugin.php:129
+msgid ""
+"This setting is added by the <i>SolveBeam Default Customer Location for "
+"WooCommerce</i> plugin."
+msgstr ""
+"Deze instelling wordt toegevoegd door de plugin <i>SolveBeam Default "
+"Customer Location for WooCommerce</i>."

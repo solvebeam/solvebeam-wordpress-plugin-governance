@@ -223,18 +223,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/solvebeam/solvebeam-wordpress-plugin-boilerplate.git",
-                "reference": "f6297e75179fde513a74dde7014605b8a6069eca"
+                "reference": "77cbba1e74c0676146a5bc5c69d6c41f7dfd7245"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/solvebeam/solvebeam-wordpress-plugin-boilerplate/zipball/f6297e75179fde513a74dde7014605b8a6069eca",
-                "reference": "f6297e75179fde513a74dde7014605b8a6069eca",
+                "url": "https://api.github.com/repos/solvebeam/solvebeam-wordpress-plugin-boilerplate/zipball/77cbba1e74c0676146a5bc5c69d6c41f7dfd7245",
+                "reference": "77cbba1e74c0676146a5bc5c69d6c41f7dfd7245",
                 "shasum": ""
             },
             "require": {
                 "automattic/jetpack-autoloader": "^5.0",
                 "composer/installers": "^2.3",
-                "php": "^8.2"
+                "php": "^8.3"
             },
             "require-dev": {
                 "pronamic/wp-coding-standards": "^2.5",
@@ -289,7 +289,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-03-19T21:06:28+00:00"
+            "time": "2026-03-19T21:22:05+00:00"
         }
     ],
     "packages-dev": [],

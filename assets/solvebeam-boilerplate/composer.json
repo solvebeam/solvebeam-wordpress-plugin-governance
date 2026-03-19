@@ -9,18 +9,18 @@
 		}
 	},
 	"authors": [
-        {
-            "name": "SolveBeam",
-            "email": "info@solvebeam.com",
-            "homepage": "https://www.solvebeam.com/",
-            "role": "Developer"
-        },
-        {
-            "name": "Remco Tolsma",
-            "email": "info@remcotolsma.nl",
-            "homepage": "https://www.remcotolsma.nl/",
-            "role": "Developer"
-        }
+		{
+			"name": "SolveBeam",
+			"email": "info@solvebeam.com",
+			"homepage": "https://www.solvebeam.com/",
+			"role": "Developer"
+		},
+		{
+			"name": "Remco Tolsma",
+			"email": "info@remcotolsma.nl",
+			"homepage": "https://www.remcotolsma.nl/",
+			"role": "Developer"
+		}
 	],
 	"config": {
 		"allow-plugins": {
@@ -28,10 +28,15 @@
 			"composer/installers": true,
 			"automattic/jetpack-autoloader": true
 		},
+		"platform": {
+			"php": "8.3"
+		},
+		"platform-check": false,
+		"sort-packages": true,
 		"wp-slug": "solvebeam-boilerplate"
 	},
 	"require": {
-		"php": "^8.2",
+		"php": "^8.3",
 		"composer/installers": "^2.3",
 		"automattic/jetpack-autoloader": "^5.0"
 	},
